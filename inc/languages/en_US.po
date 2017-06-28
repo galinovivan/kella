@@ -1,0 +1,1293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: THB_THEME_NAME\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-05 16:19+0200\n"
+"PO-Revision-Date: 2015-03-05 16:20+0200\n"
+"Last-Translator: Ant Ekşiler <anteksiler@gmail.com>\n"
+"Language-Team: Fuel Themes <support@fuelthemes.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: 404.php:18
+#, fuzzy
+msgid "404"
+msgstr "﻿Error 404"
+
+#: 404.php:19
+msgid ""
+"We are sorry. But the page you're looking for cannot be found. <br>\n"
+"\t\t\t\t\tYou might try searching our site."
+msgstr ""
+
+#: 404.php:26
+msgid "Back To Home"
+msgstr ""
+
+#: comments.php:7
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:15 inc/postformats/post-meta.php:13
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:15
+msgid "1 Comments"
+msgstr ""
+
+#: comments.php:15 inc/comments.php:65 inc/comments.php:122
+#: inc/postformats/post-meta.php:13
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:27
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#: comments.php:36
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:50
+msgid "Name"
+msgstr ""
+
+#: comments.php:52
+msgid "Email"
+msgstr ""
+
+#: comments.php:54
+msgid "Website"
+msgstr ""
+
+#: comments.php:56
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:58
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:60
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:66
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:67
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:68
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:69
+msgid "Submit Comment"
+msgstr ""
+
+#: inc/breadcrumbs.php:29
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:40 inc/posttypes.php:9 inc/posttypes.php:10
+#: inc/visualcomposer-extend.php:962
+msgid "Portfolio"
+msgstr ""
+
+#: inc/breadcrumbs.php:44
+msgid "Blog"
+msgstr ""
+
+#: inc/breadcrumbs.php:87
+msgid "Archive for category:"
+msgstr ""
+
+#: inc/breadcrumbs.php:91
+msgid "Archive for date:"
+msgstr ""
+
+#: inc/breadcrumbs.php:95
+msgid "Archive for month:"
+msgstr ""
+
+#: inc/breadcrumbs.php:99
+msgid "Archive for year:"
+msgstr ""
+
+#: inc/breadcrumbs.php:108 inc/breadcrumbs.php:119
+msgid "Search results for:"
+msgstr ""
+
+#: inc/breadcrumbs.php:112
+msgid "Search result for:"
+msgstr ""
+
+#: inc/breadcrumbs.php:123
+msgid "To search the site please enter a valid term"
+msgstr ""
+
+#: inc/breadcrumbs.php:131
+msgid "Author Archive"
+msgstr ""
+
+#: inc/breadcrumbs.php:133
+msgid "for:"
+msgstr ""
+
+#: inc/breadcrumbs.php:138
+msgid "Tag Archive for:"
+msgstr ""
+
+#: inc/breadcrumbs.php:143
+msgid "Archive for:"
+msgstr ""
+
+#: inc/breadcrumbs.php:147
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:152
+msgid "Page"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:201 inc/plugins.php:40
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:202 inc/plugins.php:41
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:203 inc/plugins.php:42
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:204
+msgid "Something went wrong."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:215 inc/plugins.php:54
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:216
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:217
+#: inc/class-tgm-plugin-activation.php:1963 inc/plugins.php:55
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:218
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:219
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:220
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:553
+#: inc/class-tgm-plugin-activation.php:2180
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1183
+msgid "Private Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1186
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1191
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1194
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1194
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1197
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1199
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1301
+#: inc/class-tgm-plugin-activation.php:1409
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1323
+#: inc/class-tgm-plugin-activation.php:1410
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1372
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1388
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1389
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1390
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1391
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1519
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1627
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1946
+msgid "Install package not available."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1947
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1948
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1949
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1950
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1951
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1962
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2076
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2077
+#: inc/class-tgm-plugin-activation.php:2086
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2077
+#: inc/class-tgm-plugin-activation.php:2086
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2078
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2083
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2084
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2085
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2086
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2087
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2088
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/comments.php:29
+msgid "Reply"
+msgstr ""
+
+#: inc/comments.php:37
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comments.php:63 inc/comments.php:124
+msgid "No Comments"
+msgstr ""
+
+#: inc/comments.php:64 inc/comments.php:126 inc/postformats/post-meta.php:13
+msgid "1 Comment"
+msgstr ""
+
+#: inc/comments.php:66
+msgid "Comments Off"
+msgstr ""
+
+#: inc/comments.php:78
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: inc/comments.php:105
+#, php-format
+msgid "Comment on %s"
+msgstr ""
+
+#: inc/loop/notfound.php:4
+msgid "Sorry, but nothing matched your search criteria."
+msgstr ""
+
+#: inc/loop/notfound.php:6
+msgid "Please add posts from your WordPress admin page."
+msgstr ""
+
+#: inc/loop/notfound.php:8
+msgid "Back to Home Page"
+msgstr ""
+
+#: inc/loop/style1.php:37 inc/masonry-ajax.php:49
+msgid "Read More"
+msgstr ""
+
+#: inc/loop/style1.php:48
+msgid "&larr; Older"
+msgstr ""
+
+#: inc/loop/style1.php:52
+msgid "Newer &rarr;"
+msgstr ""
+
+#: inc/masonry-ajax.php:41
+msgid "By"
+msgstr ""
+
+#: inc/misc.php:655
+msgid "Subscribe to our"
+msgstr ""
+
+#: inc/misc.php:656
+msgid "Newsletter"
+msgstr ""
+
+#: inc/misc.php:657
+msgid "Get timely updates from your favorite products"
+msgstr ""
+
+#: inc/misc.php:660
+msgid "Submit"
+msgstr ""
+
+#: inc/misc.php:895
+msgid "Add to wishlist"
+msgstr ""
+
+#: inc/misc.php:898 inc/misc.php:899
+msgid "Added to wishlist"
+msgstr ""
+
+#: inc/misc.php:924
+msgid "<span>&larr;</span> Previous Post"
+msgstr ""
+
+#: inc/misc.php:924
+msgid "Next Post <span>&rarr;</span>"
+msgstr ""
+
+#: inc/misc.php:927
+msgid "Previous Project"
+msgstr ""
+
+#: inc/misc.php:927
+msgid "Next Project"
+msgstr ""
+
+#: inc/misc.php:930
+msgid "PREVIOUS"
+msgstr ""
+
+#: inc/misc.php:930
+msgid "NEXT"
+msgstr ""
+
+#: inc/misc.php:966
+#, php-format
+msgid "Use commas instead of %s to separate excluded categories."
+msgstr ""
+
+#: inc/misc.php:1019
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: inc/ot-radioimages.php:10
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/ot-radioimages.php:15
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/ot-radioimages.php:24
+msgid "Left Aligned Slider"
+msgstr ""
+
+#: inc/ot-radioimages.php:29
+msgid "Right Aligned Slider"
+msgstr ""
+
+#: inc/ot-radioimages.php:38 inc/ot-radioimages.php:74
+msgid "Four Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:43 inc/ot-radioimages.php:79
+msgid "Three Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:48 inc/ot-radioimages.php:84
+msgid "Two Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:53
+msgid "Double Left Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:58
+msgid "Double Right Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:63
+msgid "Five Columns"
+msgstr ""
+
+#: inc/ot-radioimages.php:96
+msgid "Fuel Themes - Theme Options Page"
+msgstr ""
+
+#: inc/ot-radioimages.php:102
+msgid "Send to Theme Options"
+msgstr ""
+
+#: inc/ot-themeoptions.php:734 inc/ot-themeoptions.php:788
+msgid "Choose One"
+msgstr ""
+
+#: inc/ot-themeoptions.php:739
+msgid "No Sliders Found"
+msgstr ""
+
+#: inc/ot-themeoptions.php:743
+msgid "Sorry! Revolution Slider is not Installed or Activated"
+msgstr ""
+
+#: inc/ot-themeoptions.php:793
+msgid "No Menus Found"
+msgstr ""
+
+#: inc/plugins.php:43
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugins.php:56
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/postformats/post-meta.php:5
+msgid "by"
+msgstr ""
+
+#: inc/postformats/post-meta.php:9
+msgid "Published"
+msgstr ""
+
+#: inc/postformats/post-meta.php:13
+msgid "Comments Disabled"
+msgstr ""
+
+#: inc/postformats/post-related.php:15
+msgid "Related Works"
+msgstr ""
+
+#: inc/posttypes.php:11
+msgid "portfolios"
+msgstr ""
+
+#: inc/posttypes.php:13
+msgid "Add New Portfolio"
+msgstr ""
+
+#: inc/posttypes.php:14
+msgid "Edit Portfolio"
+msgstr ""
+
+#: inc/posttypes.php:15
+msgid "New Portfolio"
+msgstr ""
+
+#: inc/posttypes.php:16
+msgid "View Portfolio"
+msgstr ""
+
+#: inc/posttypes.php:17
+msgid "Search Portfolio"
+msgstr ""
+
+#: inc/posttypes.php:18
+msgid "No portfolios found"
+msgstr ""
+
+#: inc/posttypes.php:19
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: inc/posttypes.php:42 inc/posttypes.php:50
+msgid "Project Categories"
+msgstr ""
+
+#: inc/posttypes.php:43
+msgid "Project Category"
+msgstr ""
+
+#: inc/posttypes.php:44
+msgid "Search Project Categories"
+msgstr ""
+
+#: inc/posttypes.php:45
+msgid "All Project Categories"
+msgstr ""
+
+#: inc/posttypes.php:46
+msgid "Parent Project Category"
+msgstr ""
+
+#: inc/posttypes.php:47
+msgid "Edit Project Category"
+msgstr ""
+
+#: inc/posttypes.php:48
+msgid "Update Project Category"
+msgstr ""
+
+#: inc/posttypes.php:49
+msgid "Add New Project Category"
+msgstr ""
+
+#: inc/posttypes.php:72 inc/posttypes.php:73
+msgid "Team Member"
+msgstr ""
+
+#: inc/posttypes.php:74
+msgid "teammember"
+msgstr ""
+
+#: inc/posttypes.php:76
+msgid "Add New Team Member"
+msgstr ""
+
+#: inc/posttypes.php:77
+msgid "Edit Team Member"
+msgstr ""
+
+#: inc/posttypes.php:78
+msgid "New Team Member"
+msgstr ""
+
+#: inc/posttypes.php:79
+msgid "View Team Member"
+msgstr ""
+
+#: inc/posttypes.php:80
+msgid "Search Team Members"
+msgstr ""
+
+#: inc/posttypes.php:81
+msgid "No team members found"
+msgstr ""
+
+#: inc/posttypes.php:82
+msgid "No team members found in Trash"
+msgstr ""
+
+#: inc/subscribe_save.php:30
+msgid "<strong>Oh snap!</strong> That email address is already subscribed!"
+msgstr ""
+
+#: inc/subscribe_save.php:55
+msgid "<strong>Well done!</strong> Your address has been added"
+msgstr ""
+
+#: inc/subscribe_save.php:63
+msgid "<strong>Oh snap!</strong> Please enter a valid email address"
+msgstr ""
+
+#: inc/theme_info.php:30
+msgid "Theme Info"
+msgstr ""
+
+#: inc/theme_info.php:31
+msgid ""
+"Please paste down these information when starting a support inquiry in our "
+"supportforum"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:67
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:97
+msgid "Remove Tab"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:67
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:97
+msgid "Add Tab"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:80
+msgid "Remove List Item"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:80
+msgid "Add List Item"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:109
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:134
+msgid "Upload"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:110
+#: inc/tinymce/shortcode_generator/shortcode-attributes.php:135
+msgid "Remove Upload"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-generator.php:24
+msgid "Choose a shortcode"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcode-generator.php:66
+msgid "Add Shortcode"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:9
+msgid "Elements"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:13
+msgid "Small Title"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:23
+msgid "Medium Title"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:33
+#: inc/visualcomposer-extend.php:373
+msgid "Button"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:37
+msgid "Size"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:46
+msgid "Color"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:54
+msgid "Animation"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:67
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:115
+#: inc/visualcomposer-extend.php:612 inc/visualcomposer-extend.php:685
+msgid "Icon"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:71
+msgid "Buton Text"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:75
+msgid "Buton Link"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:79
+msgid "Open in New Window?"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:86
+msgid "Quotes"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:90
+msgid "Alignment"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:99
+msgid "Content"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:111
+msgid "Single Icon"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:120
+msgid "Icon Size"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:130
+msgid "Boxed?"
+msgstr ""
+
+#: inc/tinymce/shortcode_generator/shortcodes-definitions.php:135
+msgid "Icon Link"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:308
+msgid "Banner"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:460
+msgid "Clients"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:493
+msgid "Contact Map"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:524
+msgid "Content Carousel"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:555
+msgid "Dividers"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:585
+msgid "Gap"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:604
+msgid "Icon List"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:619 inc/visualcomposer-extend.php:692
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/visualcomposer-extend.php:660
+msgid "Iconbox"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:859
+msgid "Image Slider"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:891
+msgid "Instagram"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:929
+msgid "Notification"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1083
+msgid "Posts"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1137
+msgid "Pricing Column"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1240
+msgid "Share"
+msgstr ""
+
+#: inc/visualcomposer-extend.php:1308
+msgid "Twitter"
+msgstr ""
+
+#: inc/widgets/dribbble.php:45
+msgid "Error retrieving Dribbble shots"
+msgstr ""
+
+#: inc/widgets/dribbble.php:58
+msgid "Display Your Dribbble Shots"
+msgstr ""
+
+#: inc/widgets/dribbble.php:64
+msgid "Fuel Themes - Dribbble"
+msgstr ""
+
+#: inc/widgets/flickr.php:6
+msgid "Display Your Flickr Images"
+msgstr ""
+
+#: inc/widgets/flickr.php:12
+msgid "Fuel Themes - Flickr"
+msgstr ""
+
+#: inc/widgets/latest-posts-images.php:6
+msgid "Display latest posts with images"
+msgstr ""
+
+#: inc/widgets/latest-posts-images.php:12
+msgid "Fuel Themes - Latest Posts with Images"
+msgstr ""
+
+#: inc/widgets/subscribe.php:8
+msgid "A widget that gathers email addresses."
+msgstr ""
+
+#: inc/widgets/subscribe.php:14
+msgid "Fuel Themes - Subscribe Widget"
+msgstr ""
+
+#: inc/widgets/subscribe.php:49
+msgid "YOUR E-MAIL"
+msgstr ""
+
+#: inc/widgets/subscribe.php:50
+msgid "GO"
+msgstr ""
+
+#: inc/widgets/subscribe.php:89
+msgid "You can find the collected emails <a href=\""
+msgstr ""
+
+#: inc/widgets/twitter.php:6
+msgid "Display your Tweets"
+msgstr ""
+
+#: inc/widgets/twitter.php:12
+msgid "Fuel Themes - Twitter Widget"
+msgstr ""
+
+#: inc/widgets/twitter.php:52
+msgid "Number of Tweets"
+msgstr ""
+
+#: inc/wordpress-importer/parsers.php:42 inc/wordpress-importer/parsers.php:72
+#: inc/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: inc/wordpress-importer/parsers.php:84 inc/wordpress-importer/parsers.php:89
+#: inc/wordpress-importer/parsers.php:279
+#: inc/wordpress-importer/parsers.php:469
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:131
+#: inc/wordpress-importer/wordpress-importer.php:140
+#: inc/wordpress-importer/wordpress-importer.php:192
+#: inc/wordpress-importer/wordpress-importer.php:196
+#: inc/wordpress-importer/wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:132
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:176
+msgid "All done."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:176
+msgid "Have fun!"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:197
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:213
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:238
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:265
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:267
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:297
+msgid "Import author:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:311
+msgid "as a new user:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:321
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:322
+msgid "- Select -"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:372
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:463
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:509
+#: inc/wordpress-importer/wordpress-importer.php:650
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:535
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:616
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:781
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:788
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:857
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:870
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:914
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:920
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:927
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:932
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:938
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1037
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1044
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1059
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1060
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/wordpress-importer/wordpress-importer.php:1134
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: inc/wp-pagenavi.php:23
+msgid "<i class=\"fa fa-caret-left\"></i> PREV"
+msgstr ""
+
+#: inc/wp-pagenavi.php:33
+msgid "NEXT <i class=\"fa fa-caret-right\"></i>"
+msgstr ""
+
+#: inc/wp3menu.php:8
+msgid "Navigation Menu"
+msgstr ""
+
+#: inc/wp3menu.php:184
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/wp3menu.php:188
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/wp3menu.php:229
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/wp3menu.php:238
+msgid "URL"
+msgstr ""
+
+#: inc/wp3menu.php:245
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/wp3menu.php:251
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/wp3menu.php:258
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/wp3menu.php:263
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/wp3menu.php:269
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/wp3menu.php:275
+msgid "Description"
+msgstr ""
+
+#: inc/wp3menu.php:277
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/wp3menu.php:284
+msgid "Fuel Themes Menu Options"
+msgstr ""
+
+#: inc/wp3menu.php:286
+msgid "Menu Item Icon"
+msgstr ""
+
+#: inc/wp3menu.php:297
+msgid "Menu Item Anchor"
+msgstr ""
+
+#: inc/wp3menu.php:307
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/wp3menu.php:320
+msgid "Remove"
+msgstr ""
+
+#: inc/wp3menu.php:321
+msgid "Cancel"
+msgstr ""
+
+#: inc/wpml.php:21 inc/wpml.php:46
+msgid "Add Languages"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: single-teammember.php:20
+msgid "GET IN TOUCH"
+msgstr ""
+
+#: single.php:35
+msgid "BACK TO BLOG"
+msgstr ""
+
+#: vc_templates/thb_instagram.php:33
+msgid "Unable to communicate with Instagram."
+msgstr ""
+
+#: vc_templates/thb_instagram.php:36
+msgid "Instagram did not return a 200."
+msgstr ""
+
+#: vc_templates/thb_instagram.php:43
+msgid "Instagram has returned invalid data."
+msgstr ""
+
+#: vc_templates/thb_portfolio.php:51
+msgid "FILTER"
+msgstr ""
+
+#: vc_templates/thb_portfolio.php:54 vc_templates/thb_portfolio.php:75
+msgid "All"
+msgstr ""
+
+#: vc_templates/thb_portfolio.php:304
+msgid "Loading Posts"
+msgstr ""
+
+#: vc_templates/thb_portfolio.php:304
+msgid "No More Posts to Show"
+msgstr ""
+
+#: vc_templates/thb_portfolio.php:304
+msgid "Load More"
+msgstr ""
+
+#: vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr ""
+
+#: vc_templates/vc_accordion_tab.php:12 vc_templates/vc_tab.php:6
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: vc_templates/vc_toggle.php:4
+msgid "Click to toggle"
+msgstr ""
