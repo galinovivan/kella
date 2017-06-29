@@ -6,6 +6,8 @@
 </div> <!-- End #wrapper -->
 
 <div id="ajax-placeholder" class="hide"></div>
+<script src="<?=get_template_directory_uri();?>/assets/scripts/dist/scripts.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo4YEOsU9tAfPJ6oPn2mb7GMQhDlfqhfI&callback=initMap"></script>
 <?php 
 	/* Always have wp_footer() just before the closing </body>
 	 * tag of your theme, or you will break many plugins, which

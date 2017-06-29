@@ -15,10 +15,12 @@ var gulp = require('gulp'),
 
 var path = {
   build: {
-      css: 'assets/css'
+      css: 'assets/css/',
+      js: 'assets/scripts/dist/'
   },
   src: {
-      style: 'assets/styles/common.scss'
+      style: 'assets/styles/common.scss',
+      js: 'assets/scripts/*.js'
   }
 };
 
@@ -44,9 +46,18 @@ gulp.task('style:build', function() {
        .pipe(gulp.dest(path.build.css))
 });
 
+gulp.task('js:build', function() {
+   gulp.src(path.src.js)
+       .pipe(sorceMaps.init())
+       .pipe(concat('scripts.js'))
+       .pipe(uglify())
+       .pipe(sorceMaps.write())
+       .pipe(gulp.dest(path.build.js))
+});
+
 
 gulp.task('watch', function() {
-    watch([path.watch.style], function(event, cb) {
-       gulp.start('style:build');
-    });
+    watch([path.src.js], function(event, cb) {
+        gulp.start('js:build');
+    })
 });
