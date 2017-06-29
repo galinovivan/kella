@@ -29,7 +29,9 @@
 <!-- Start Mobile Menu -->
 <nav id="mobile-menu" class="style3">
 	<div class="menu-container">
-		<a href="#" id="panel-close" class="panel-close"></a>
+		<a href="#" id="panel-close" class="panel-close">
+            <span class="black_line"></span><span class="black_line"></span><span class="black_line"></span>
+        </a>
 		
 		<div class="menu-holder">
 			<a href="<?php echo home_url(); ?>" class="menu-logo">

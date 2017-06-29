@@ -32,7 +32,7 @@ function thb_register_js() {
 		$url_prefix = is_ssl() ? 'https:' : 'http:';
 		// Register 
 		wp_register_script('modernizr', THB_THEME_ROOT . '/assets/js/plugins/modernizr.custom.min.js', 'jquery', null);
-		wp_register_script('gmapdep', $url_prefix.'//maps.google.com/maps/api/js?sensor=false', false, null, TRUE);
+		//wp_register_script('gmapdep', $url_prefix.'//maps.google.com/maps/api/js?sensor=false', false, null, TRUE);
 		wp_register_script('tweenmax', $url_prefix.'//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js', 'false', null, TRUE);
 		wp_register_script('tweenmax-scrollto', $url_prefix.'//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/plugins/ScrollToPlugin.min.js', 'false', null, TRUE);
 		wp_register_script('vendor', THB_THEME_ROOT . '/assets/js/vendor.min.js', 'jquery', null, TRUE);
@@ -44,7 +44,7 @@ function thb_register_js() {
 		if(!is_singular('portfolio')) {
 		wp_enqueue_script('jquery');
 		wp_enqueue_script('modernizr');
-		wp_enqueue_script('gmapdep');
+		//wp_enqueue_script('gmapdep');
 		wp_enqueue_script('tweenmax');
 		wp_enqueue_script('tweenmax-scrollto');
 		wp_enqueue_script('vendor');

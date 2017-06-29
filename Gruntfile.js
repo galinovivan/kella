@@ -126,7 +126,7 @@ module.exports = function(grunt) {
     // register task
     grunt.registerTask('default', [
         'jshint',
-        'compass:dev',
+
         'concat',
         'watch'
     ]);

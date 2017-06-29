@@ -1,0 +1,10 @@
+#contact {
+  .contact_map {
+    display: block !important;
+    #map {
+      height: 580px;
+      width: 100%;
+      visibility: visible;
+    }
+  }
+}
