@@ -21,6 +21,14 @@
                             <?php endforeach; ?>
                                 </ul>
                             </div>
+                            <div id="about">
+                                <div class="title">
+                                    <?php the_title(); ?>
+                                </div>
+                                <div class="text">
+                                    <?php the_field('portfolio_text'); ?>
+                                </div>
+                            </div>
                             <div id="carousel" class="flexslider">
                                 <ul class="slides">
                                     <?php foreach ($images as $image): ?>
@@ -31,14 +39,7 @@
                                 </ul>
                             </div>
                             <?php endif; ?>
-                    <div id="about">
-                        <div class="title">
-                            <?php the_title(); ?>
-                        </div>
-                        <div class="text">
-                            <?php the_field('portfolio_text'); ?>
-                        </div>
-                    </div>
+
 				</div>
 			</div>
 		</article>

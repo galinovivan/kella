@@ -1,9 +1,54 @@
 .post-content {
-  .carousel {
+  #slider {
+    @include boxShadow(none);
+  }
+  #carousel {
+    width: 70%;
+    float: left;
+    padding: 0 35px;
+    @include boxShadow(none);
     ul {
       li {
         margin-right: 20px;
       }
     }
   }
+  #about {
+    width: 30%;
+    float: left;
+    padding-left: 50px;
+    .title {
+      color: $baseOrange;
+      font-size: $baseTitleSize;
+      margin-bottom: 5px;
+    }
+    .text {
+      font-size: $smallText;
+    }
+  }
+}
+
+.flex-direction-nav a {
+  background: transparent url(../img/portfolio-nav.png);
+  background-size: 46px 44px;
+  z-index: 1051;
+  color: $transparent;
+  &.flex-prev {
+    width: 12px;
+    height: 22px;
+    background-position: 0 0;
+  }
+  &.flex-next {
+    width: 12px;
+    height: 22px;
+    background-position: -12px 0;
+  }
+  &::before {
+    content: '' !important;
+    display: none !important;
+  }
+}
+
+.flexslider {
+  border: none !important;
 }
