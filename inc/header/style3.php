@@ -10,6 +10,44 @@
 	// } 
 	$page_menu = (get_post_meta($id, 'page_menu', true) !== '' ? get_post_meta($id, 'page_menu', true) : false);
 	$mouse_scroll = get_post_meta($id, 'rev_slider_scroll', true);
+
+$navText = array();
+$lang - pll_current_language();
+echo $lang;
+switch($lang) {
+    case 'en':
+        $navText =  $navText = array(
+        'portfolio' => 'Portfolio',
+        'tehcnicak' => 'Technologies',
+        'services' => 'Service',
+        'contact' => 'Contacts'    
+        );
+        break;
+    case 'ru':
+        $navText = array(
+        'portfolio' => 'Портфолио',
+        'tehcnicak' => 'Технологии',
+        'services' => 'Сервис',
+        'contact' => 'Контакты'    
+        );
+        break;
+    case 'fi':
+        $navText =  $navText = array(
+        'portfolio' => 'Portfolio',
+        'tehcnicak' => 'Teknologia',
+        'services' => 'Palvelut',
+        'contact' => 'Yhteystiedot'    
+        );
+        break;
+    default:
+        $navText = array(
+        'portfolio' => 'Портфолио',
+        'tehcnicak' => 'Технологии',
+        'services' => 'Сервис',
+        'contact' => 'Контакты'    
+        );
+        break;
+}
 ?>
 
 <!-- Page Slider -->
@@ -37,15 +75,13 @@
 			<a href="<?php echo home_url(); ?>" class="menu-logo">
 				<img src="<?php echo esc_url($logo_dark); ?>" alt="<?php bloginfo('name'); ?>"/>
 			</a>
-			<?php if ($page_menu) { ?>
-				<?php wp_nav_menu( array( 'menu' => $page_menu, 'depth' => 1, 'container' => false, 'menu_class' => 'mobile-menu sf-menu', 'walker' => new thb_OnePageMenu  ) ); ?>
-			<?php } else  if(has_nav_menu('nav-menu')) { ?>
-			  <?php wp_nav_menu( array( 'theme_location' => 'nav-menu', 'depth' => 1, 'container' => false, 'menu_class' => 'mobile-menu sf-menu', 'walker' => new thb_OnePageMenu ) ); ?>
-			<?php } else { ?>
-				<ul class="mobile-menu">
-					<li><a href="<?php echo get_admin_url().'nav-menus.php'; ?>">Please assign a menu from Appearance -> Menus</a></li>
-				</ul>
-			<?php } ?>
+            <?=$lang;?>
+			<ul id="menu-menyu" class="mobile-menu sf-menu">
+                <li><a href="#portfolio"><?=$navText['portfolio'];?></a></li>
+                <li><a href="#technology"><?=$navText['tehcnicak'];?></a></li>
+                <li><a href="#service"><?=$navText['services'];?></a></li>
+                <li><a href="#contact"><?=$navText['contact'];?></a></li>
+            </ul>
 			<ul class="menu-langs">
 				<?php pll_the_languages(); ?>
 				<?php // pll_the_languages( array( 'show_flags' => 1,'show_names' => 0 ) ); ?>
